@@ -1,0 +1,72 @@
+@font-face {
+    font-family: marvel-title;
+    src: url(assets/font/MarvelRegular-Dj83.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    background-image: url(https://i3.wp.com/image7.uhdpaper.com/wallpaper-hd/black-panther-chadwick-boseman-wakanda-forever-salute-uhdpaper.com-hd-7.2713.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul img {
+    width: 100px;
+    height: auto;
+    position: static;
+    
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+header ul {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+
+
+}
+header ul li {
+    padding: 15px;
+    font-size: 25px; 
+    /*
+    :hover {
+        background-color: rgb(187, 186, 186);
+        height: auto;
+        width: 50px;
+    } 
+        */
+      
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+main {
+    margin-top: 28%;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+main p {
+    letter-spacing: 1px;
+    font-family: "Anton", sans-serif;
+}
